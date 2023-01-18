@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ravi\\LocalRepo\\DAC\\dotnetiet\\Day1\\ECommerce\\ConsolePortal\\ConsolePortal.csproj": {}
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day1\\ECommerce\\ConsolePortal\\ConsolePortal.csproj": {}
   },
   "projects": {
-    "D:\\Ravi\\LocalRepo\\DAC\\dotnetiet\\Day1\\ECommerce\\ConsolePortal\\ConsolePortal.csproj": {
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day1\\ECommerce\\ConsolePortal\\ConsolePortal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\dotnetiet\\Day1\\ECommerce\\ConsolePortal\\ConsolePortal.csproj",
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day1\\ECommerce\\ConsolePortal\\ConsolePortal.csproj",
         "projectName": "ConsolePortal",
-        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\dotnetiet\\Day1\\ECommerce\\ConsolePortal\\ConsolePortal.csproj",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day1\\ECommerce\\ConsolePortal\\ConsolePortal.csproj",
         "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\dotnetiet\\Day1\\ECommerce\\ConsolePortal\\obj\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day1\\ECommerce\\ConsolePortal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"

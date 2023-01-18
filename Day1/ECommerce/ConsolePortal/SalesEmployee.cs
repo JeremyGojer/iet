@@ -17,7 +17,13 @@ public sealed class SalesEmployee:Employee{
     public double Target{get;set;}
     public double Revenue{get;set;}
 
-    public override double CalculateSalary()
+    public  void DoWork()
+    {
+       Console.WriteLine("Work is in progress");
+    }
+
+    //Shadowing 
+    public    double CalculateSalary()
     {
         double salary=base.CalculateSalary();
         if(Revenue > Target){

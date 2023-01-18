@@ -23,10 +23,11 @@ public  class Employee:Person{
         this.DA=da;
     }
 
-    public virtual double CalculateSalary(){
+    public  double CalculateSalary(){
         double salary=this.BasicSalary + this.DA + this.HRA-this.PF;
         return salary;
     }
+    //public  abstract void DoWork();
 
     public override string ToString()
     {

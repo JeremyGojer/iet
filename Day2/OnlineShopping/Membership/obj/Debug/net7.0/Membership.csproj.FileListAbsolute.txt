@@ -1,0 +1,12 @@
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\bin\Debug\net7.0\Membership.deps.json
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\bin\Debug\net7.0\Membership.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\bin\Debug\net7.0\Membership.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\obj\Debug\net7.0\Membership.csproj.AssemblyReference.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\obj\Debug\net7.0\Membership.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\obj\Debug\net7.0\Membership.AssemblyInfoInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\obj\Debug\net7.0\Membership.AssemblyInfo.cs
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\obj\Debug\net7.0\Membership.csproj.CoreCompileInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\obj\Debug\net7.0\Membership.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\obj\Debug\net7.0\refint\Membership.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\obj\Debug\net7.0\Membership.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Membership\obj\Debug\net7.0\ref\Membership.dll

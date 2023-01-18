@@ -1,0 +1,12 @@
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\bin\Debug\net7.0\OrderProcessing.deps.json
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\bin\Debug\net7.0\OrderProcessing.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\bin\Debug\net7.0\OrderProcessing.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\obj\Debug\net7.0\OrderProcessing.csproj.AssemblyReference.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\obj\Debug\net7.0\OrderProcessing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\obj\Debug\net7.0\OrderProcessing.AssemblyInfoInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\obj\Debug\net7.0\OrderProcessing.AssemblyInfo.cs
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\obj\Debug\net7.0\OrderProcessing.csproj.CoreCompileInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\obj\Debug\net7.0\OrderProcessing.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\obj\Debug\net7.0\refint\OrderProcessing.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\obj\Debug\net7.0\OrderProcessing.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\OrderProcessing\obj\Debug\net7.0\ref\OrderProcessing.dll

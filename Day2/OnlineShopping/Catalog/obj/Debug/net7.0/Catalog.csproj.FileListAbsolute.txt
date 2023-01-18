@@ -1,0 +1,12 @@
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\bin\Debug\net7.0\Catalog.deps.json
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\bin\Debug\net7.0\Catalog.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\bin\Debug\net7.0\Catalog.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\obj\Debug\net7.0\Catalog.csproj.AssemblyReference.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\obj\Debug\net7.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\obj\Debug\net7.0\Catalog.AssemblyInfoInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\obj\Debug\net7.0\Catalog.AssemblyInfo.cs
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\obj\Debug\net7.0\Catalog.csproj.CoreCompileInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\obj\Debug\net7.0\Catalog.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\obj\Debug\net7.0\refint\Catalog.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\obj\Debug\net7.0\Catalog.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\Catalog\obj\Debug\net7.0\ref\Catalog.dll
