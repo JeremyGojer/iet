@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\PortalConsoleApp\\PortalConsoleApp.csproj": {}
+  },
+  "projects": {
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\BI\\BI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\BI\\BI.csproj",
+        "projectName": "BI",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\BI\\BI.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\BI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Catalog\\Catalog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Catalog\\Catalog.csproj",
+        "projectName": "Catalog",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Catalog\\Catalog.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Catalog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\CRM\\CRM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\CRM\\CRM.csproj",
+        "projectName": "CRM",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\CRM\\CRM.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\CRM\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Membership\\Membership.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Membership\\Membership.csproj",
+        "projectName": "Membership",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Membership\\Membership.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Membership\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj",
+        "projectName": "OrderProcessing",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\OrderProcessing\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\PortalConsoleApp\\PortalConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\PortalConsoleApp\\PortalConsoleApp.csproj",
+        "projectName": "PortalConsoleApp",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\PortalConsoleApp\\PortalConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\PortalConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\BI\\BI.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\BI\\BI.csproj"
+              },
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Catalog\\Catalog.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Catalog\\Catalog.csproj"
+              },
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\CRM\\CRM.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\CRM\\CRM.csproj"
+              },
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Membership\\Membership.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\Membership\\Membership.csproj"
+              },
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day2\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

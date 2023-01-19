@@ -1,0 +1,15 @@
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\bin\Debug\net7.0\CRM.deps.json
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\bin\Debug\net7.0\CRM.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\bin\Debug\net7.0\CRM.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\obj\Debug\net7.0\CRM.csproj.AssemblyReference.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\obj\Debug\net7.0\CRM.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\obj\Debug\net7.0\CRM.AssemblyInfoInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\obj\Debug\net7.0\CRM.AssemblyInfo.cs
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\obj\Debug\net7.0\CRM.csproj.CoreCompileInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\obj\Debug\net7.0\CRM.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\obj\Debug\net7.0\refint\CRM.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\obj\Debug\net7.0\CRM.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\obj\Debug\net7.0\ref\CRM.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\bin\Debug\net7.0\OrderProcessing.dll
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\bin\Debug\net7.0\OrderProcessing.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day2\OnlineShopping\CRM\obj\Debug\net7.0\CRM.csproj.CopyComplete
