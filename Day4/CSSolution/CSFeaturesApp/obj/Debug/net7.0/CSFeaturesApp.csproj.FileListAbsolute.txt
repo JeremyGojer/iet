@@ -1,0 +1,15 @@
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\obj\Debug\net7.0\CSFeaturesApp.csproj.AssemblyReference.cache
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\obj\Debug\net7.0\CSFeaturesApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\obj\Debug\net7.0\CSFeaturesApp.AssemblyInfoInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\obj\Debug\net7.0\CSFeaturesApp.AssemblyInfo.cs
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\obj\Debug\net7.0\CSFeaturesApp.csproj.CoreCompileInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\bin\Debug\net7.0\CSFeaturesApp.exe
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\bin\Debug\net7.0\CSFeaturesApp.deps.json
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\bin\Debug\net7.0\CSFeaturesApp.runtimeconfig.json
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\bin\Debug\net7.0\CSFeaturesApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\bin\Debug\net7.0\CSFeaturesApp.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\obj\Debug\net7.0\CSFeaturesApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\obj\Debug\net7.0\refint\CSFeaturesApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\obj\Debug\net7.0\CSFeaturesApp.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\obj\Debug\net7.0\CSFeaturesApp.genruntimeconfig.cache
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CSFeaturesApp\obj\Debug\net7.0\ref\CSFeaturesApp.dll

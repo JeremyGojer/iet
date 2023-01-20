@@ -1,0 +1,33 @@
+
+Todays Agenda:
+
+C# Keywords:
+	const, 
+	readonly
+	ref 
+	out
+	params
+	as
+	is
+	partial
+
+Collection Framework in C#
+	arrays
+		Rectangular array
+		Jagges array
+	System.Collections.Generic namespace
+		Stack
+		LinkedList
+		List
+		Dictionary
+		HashMap, HashSet
+		etc.
+	Indexer
+	IEnumerable,
+	IComparable
+	IComparer
+	IDisposable 
+	Finalization--- Garbage collection concept
+
+Windows application Development using .net core
+	

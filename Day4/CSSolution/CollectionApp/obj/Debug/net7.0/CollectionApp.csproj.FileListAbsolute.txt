@@ -1,0 +1,15 @@
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\obj\Debug\net7.0\CollectionApp.csproj.AssemblyReference.cache
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\obj\Debug\net7.0\CollectionApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\obj\Debug\net7.0\CollectionApp.AssemblyInfoInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\obj\Debug\net7.0\CollectionApp.AssemblyInfo.cs
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\obj\Debug\net7.0\CollectionApp.csproj.CoreCompileInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\bin\Debug\net7.0\CollectionApp.exe
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\bin\Debug\net7.0\CollectionApp.deps.json
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\bin\Debug\net7.0\CollectionApp.runtimeconfig.json
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\bin\Debug\net7.0\CollectionApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\bin\Debug\net7.0\CollectionApp.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\obj\Debug\net7.0\CollectionApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\obj\Debug\net7.0\refint\CollectionApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\obj\Debug\net7.0\CollectionApp.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\obj\Debug\net7.0\CollectionApp.genruntimeconfig.cache
+D:\Ravi\LocalRepo\DAC\iet\Day4\CSSolution\CollectionApp\obj\Debug\net7.0\ref\CollectionApp.dll
