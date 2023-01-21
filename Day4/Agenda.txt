@@ -11,6 +11,7 @@ C# Keywords:
 	is
 	partial
 
+
 Collection Framework in C#
 	arrays
 		Rectangular array
@@ -19,7 +20,7 @@ Collection Framework in C#
 		Stack
 		LinkedList
 		List
-		Dictionary
+-		Dictionary
 		HashMap, HashSet
 		etc.
 	Indexer
