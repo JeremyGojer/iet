@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TFLStore/1.0.0": {
+        "dependencies": {
+          "bol": "1.0.0",
+          "sal": "1.0.0"
+        },
+        "runtime": {
+          "TFLStore.dll": {}
+        }
+      },
+      "bll/1.0.0": {
+        "dependencies": {
+          "DAL": "1.0.0",
+          "bol": "1.0.0"
+        },
+        "runtime": {
+          "bll.dll": {}
+        }
+      },
+      "bol/1.0.0": {
+        "runtime": {
+          "bol.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "dependencies": {
+          "bol": "1.0.0"
+        },
+        "runtime": {
+          "DAL.dll": {}
+        }
+      },
+      "sal/1.0.0": {
+        "dependencies": {
+          "bll": "1.0.0",
+          "bol": "1.0.0"
+        },
+        "runtime": {
+          "sal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TFLStore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "bll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "bol/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "sal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

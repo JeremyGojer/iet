@@ -1,0 +1,25 @@
+﻿@using BOL;
+@{
+    ViewData["Title"] = "Details Page";
+}
+
+@{
+    //Product p=ViewData["product"] as Product;
+    Product p=ViewBag.product;
+    <div>
+        <h1 class="display-4">Product Details</h1>
+        <hr/>
+        <p>Id:@p.ProductId </p>
+        <img src="@p.ImageUrl", height="100" width="100"/>
+        <p>Title:@p.Title</p>
+        <p>Description:@p.Description</p>
+        <p>Unit Price:@p.UnitPrice Rs.</p>
+        <p>Stocks Available:@p.StockAvailable</p>
+        <br/>
+        <a href="/shoppingcart/index">Add to Cart</a>
+    </div>
+
+    TempData["mychoice"]="Best Choice";
+
+
+}

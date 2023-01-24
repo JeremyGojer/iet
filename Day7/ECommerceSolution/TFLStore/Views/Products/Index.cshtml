@@ -1,0 +1,18 @@
+﻿@using BOL;
+
+@{
+    ViewData["Title"] = "Catalog Page";
+}
+
+<div>
+    <h1 class="display-4">Todays Fresh Flowers for sale...</h1>
+    <br/>
+    <a href="/products/insert">Insert new Flower in Catalog</a>
+    <br/>
+     @{
+        List<Product> allProducts=ViewData["products"] as List<Product>;
+        foreach(Product p in allProducts){
+            <p><a href="/products/details/@p.ProductId">@p.Title</a></p>
+        }
+     }
+</div>

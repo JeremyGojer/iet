@@ -1,0 +1,43 @@
+Todays Steps for Building MVC based OnlineShopping Web Applicatoin using Visual Code
+*********************************************************************************************
+
+1.Create a blank Solution with name OnlineShopping.
+2.Add new project as BOL using Classlibrary project template using dotnet CLI command in OnlineShopping Solution.
+3.Add new project as BLL using Classlibrary project template using dotnet CLI command in OnlineShopping Solution.
+4.Add new project as DAL using Classlibrary project template using dotnet CLI command in OnlineShopping Solution.
+5.Add new project as SAL using Classlibrary project template using dotnet CLI command in OnlineShopping Solution.
+6.Add new project as EStore using  MVC template  project
+7.Add BOL, BLL, DAL, SAL and EStore projects into solutioon OnlineShopping solution using dotnet sln add command.
+8.Build Onlineshopping solution and test tflstore running with Kestrel Webserver using some port in listening mode.
+9.Launch Chrome browser to test http:\\localhost:9898(some port defined in console window)  web site built using dotnet run command. 
+10.Add Action Methods Aboutus, Contact, Services  to HomeController.cs in TFLStore project. 
+11.Add Views to Aboutsus, Contact action methods of HomeController.cs file
+12.Implement Presentation logic using HTML to Index.cshtml, Aboustus.cshtml, Aboutus.cshtml and Contact.cshtml.
+13.Add Images folder to wwwroot of EStore application project.
+14.Add essential iamges .jpg files to Images folder of project.
+15.Link image url to index.cshtml file
+16.Add new Controller AccountController, ProductsController  in Controllers folder.
+17.Add Action method Login with HTTPGET and HTTPPost attribute to AccountController class of TFLStore project.
+18.Add Login.cshtml file with newly created folder Account in Views folder.
+19.Design Login.cshtml file for inserting email address  and password with the help of HTML and bootstrap classes.
+20.Set Form method to POST and Action to /account/login.
+21.Add User credential validation logic inside AccountControllers HTTP POST Login method.
+22.On Successful login ,redirect User to Orders Index Action method using RedirectAction method of AccountController class.
+23.Add Action method Register  with HTTPGET and HTTPPost attribute to AccountController.
+24.Add Register.cshtml file to register new customer details on submissio in Views folder.
+25.Design Register.cshtml file for inserting Customer Details needed for OrderProcessing and future communication by EStore.
+   using FirstName, LastName, Email, ContactNumber and Location.
+26.Set Form method to POST and Action to /account/Register in Register.cshtml file.
+27.Add User Registeration logic to display Customer Inforamtion in Console Window of Server Application.
+28.Add implementation logic inside HTTP POST method Register of AccountController class.
+29.Add OrdersController to Controller folder to Manage OrderProcessing Logic.
+30.Implement Index Action Method to OrdersController.
+31.Add Index.cshtml razor file  inside Orders folder of view to show list of Orders belong to Customer.
+32.Add ProductsController to Controller folder to Manage Product Inventory of OnlineShopping Web Project.
+33.Implement Index Action Method to ProductsController View using Index.cshtml file.
+34.Add Details, Insert, Update, Delete Action methods to ProductsController class  of TFLStore  project.
+35.Create samples data of Products list in Index method of ProductsController .
+36.Show List of products to be sold maintained insdide Index of ProductsController to Index view of Products folder inside Views folder.
+37.Show details of product to be sold using product  members such as ID, Title, Description, UnitPrice, Stock Avaialble, ImageUrl of ProductsController class.
+38.Implement Design.cshtml, Insert.cshtml, Update.cshtml in views folder Views\Products of TFLStore project.
+39.Modify _layouts.cshtml file available in Shared folder of Views to show links on each view for navigation Point of view.

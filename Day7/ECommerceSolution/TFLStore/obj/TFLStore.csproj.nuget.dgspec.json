@@ -1,0 +1,301 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\TFLStore\\TFLStore.csproj": {}
+  },
+  "projects": {
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bll\\bll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bll\\bll.csproj",
+        "projectName": "bll",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bll\\bll.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bll\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj"
+              },
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj",
+        "projectName": "bol",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\sal\\sal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\sal\\sal.csproj",
+        "projectName": "sal",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\sal\\sal.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\sal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bll\\bll.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bll\\bll.csproj"
+              },
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\TFLStore\\TFLStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\TFLStore\\TFLStore.csproj",
+        "projectName": "TFLStore",
+        "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\TFLStore\\TFLStore.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\TFLStore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\bol\\bol.csproj"
+              },
+              "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\sal\\sal.csproj": {
+                "projectPath": "D:\\Ravi\\LocalRepo\\DAC\\iet\\Day7\\ECommerceSolution\\sal\\sal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
