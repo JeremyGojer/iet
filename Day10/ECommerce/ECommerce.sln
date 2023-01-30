@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagementApp", "StateManagementApp\StateManagementApp.csproj", "{B4FD76C7-C7F7-43AE-9C7B-7C9C42EEB44B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateWebApp", "StateWebApp\StateWebApp.csproj", "{6083357C-CA54-4FA0-9F33-01A29357C23F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4FD76C7-C7F7-43AE-9C7B-7C9C42EEB44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FD76C7-C7F7-43AE-9C7B-7C9C42EEB44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FD76C7-C7F7-43AE-9C7B-7C9C42EEB44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FD76C7-C7F7-43AE-9C7B-7C9C42EEB44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6083357C-CA54-4FA0-9F33-01A29357C23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6083357C-CA54-4FA0-9F33-01A29357C23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6083357C-CA54-4FA0-9F33-01A29357C23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6083357C-CA54-4FA0-9F33-01A29357C23F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

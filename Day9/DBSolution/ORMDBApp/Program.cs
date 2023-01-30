@@ -19,9 +19,19 @@ Employee e1=new Employee{
     Password="chandra"
 };
 
-Console.WriteLine("After insertion ....");
+Console.WriteLine("After  operation ....");
 
-bool status=HRManager.Insert(e1);
+/*bool status=HRManager.Insert(e1);
+if(status){
+     employees=HRManager.GetAll();
+    foreach(Employee emp in employees){
+        Console.WriteLine(emp.FirstName + "  "+ emp.LastName);
+    }
+}
+*/
+
+bool status=HRManager.Delete(e1);
+
 if(status){
      employees=HRManager.GetAll();
     foreach(Employee emp in employees){
