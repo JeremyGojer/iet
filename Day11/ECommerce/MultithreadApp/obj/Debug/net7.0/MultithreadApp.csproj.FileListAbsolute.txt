@@ -1,0 +1,15 @@
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\obj\Debug\net7.0\MultithreadApp.csproj.AssemblyReference.cache
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\obj\Debug\net7.0\MultithreadApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\obj\Debug\net7.0\MultithreadApp.AssemblyInfoInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\obj\Debug\net7.0\MultithreadApp.AssemblyInfo.cs
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\obj\Debug\net7.0\MultithreadApp.csproj.CoreCompileInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\bin\Debug\net7.0\MultithreadApp.exe
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\bin\Debug\net7.0\MultithreadApp.deps.json
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\bin\Debug\net7.0\MultithreadApp.runtimeconfig.json
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\bin\Debug\net7.0\MultithreadApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\bin\Debug\net7.0\MultithreadApp.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\obj\Debug\net7.0\MultithreadApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\obj\Debug\net7.0\refint\MultithreadApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\obj\Debug\net7.0\MultithreadApp.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\obj\Debug\net7.0\MultithreadApp.genruntimeconfig.cache
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\MultithreadApp\obj\Debug\net7.0\ref\MultithreadApp.dll

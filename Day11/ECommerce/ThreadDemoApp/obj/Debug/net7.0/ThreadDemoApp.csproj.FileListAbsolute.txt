@@ -1,0 +1,15 @@
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\bin\Debug\net7.0\ThreadDemoApp.exe
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\bin\Debug\net7.0\ThreadDemoApp.deps.json
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\bin\Debug\net7.0\ThreadDemoApp.runtimeconfig.json
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\bin\Debug\net7.0\ThreadDemoApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\bin\Debug\net7.0\ThreadDemoApp.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\obj\Debug\net7.0\ThreadDemoApp.csproj.AssemblyReference.cache
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\obj\Debug\net7.0\ThreadDemoApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\obj\Debug\net7.0\ThreadDemoApp.AssemblyInfoInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\obj\Debug\net7.0\ThreadDemoApp.AssemblyInfo.cs
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\obj\Debug\net7.0\ThreadDemoApp.csproj.CoreCompileInputs.cache
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\obj\Debug\net7.0\ThreadDemoApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\obj\Debug\net7.0\refint\ThreadDemoApp.dll
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\obj\Debug\net7.0\ThreadDemoApp.pdb
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\obj\Debug\net7.0\ThreadDemoApp.genruntimeconfig.cache
+D:\Ravi\LocalRepo\DAC\iet\Day11\ECommerce\ThreadDemoApp\obj\Debug\net7.0\ref\ThreadDemoApp.dll

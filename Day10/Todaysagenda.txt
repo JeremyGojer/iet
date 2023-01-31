@@ -1,0 +1,74 @@
+
+State Management
+Partial Views
+Creating Dashboard
+Invoking data using client Side Technologies (ajax)
+Using Charts in Views
+
+
+State Management:
+Each Web application is based on request -response cycle
+Each Web application is based on HTTP protocol
+HTTP protocol is state less by nature.
+Every web application is state less by default.
+
+ECommerce Application:
+Product Catalog----------------database
+Shopping Cart-----------------session
+	a container is maintained for each user who is interested in purchasing products from product catalog.
+each session is going to be uniquly identifed by session Id. Session ID is always created at the time session creation at server. every time sesion ID is sent to client side in the form of 
+cookie.
+
+Cookies are resent by client application back to server.
+Using session id which is kept inside cooked , sever will be able to identify session created by same customer who visited before in consecutive requests.
+
+Each session has defiend with expiration time duration
+
+Because of session implementation , state less web application will behave like statefull application.
+Web Application will serve multiple customer requests and maintain isolation between each 
+user specific data at server side for certain time interval.
+
+
+Partial View
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.Client Side State management
+	QueryString, cookies,
+	hiddend field,
+	Local storage, session Storage (browser specific objects) (HTML5)
+
+2.Server Side State management
+	Session,Application, Cache
+
+
+
+
+
+
+
+
+
+
