@@ -1,0 +1,351 @@
+AWS services
+https://www.youtube.com/watch?v=Z3SYDTMP3ME
+
+
+
+https://www.youtube.com/watch?v=1xo-0gCVhTU
+https://www.youtube.com/watch?v=s_o8dwzRlu4
+
+https://www.youtube.com/watch?v=X48VuDVv0do
+
+
+Conainers on aws overview:
+
+https://www.youtube.com/watch?v=AYAh6YDXuho
+
+Teraform
+https://www.youtube.com/watch?v=l5k1ai_GBDE
+
+What is Kubernetes ?
+K8s Architecture
+Main K8s Components
+MiniKube and Kubectl - Local Setup
+Main Kubectl Commands -K8s CLI
+K8s YAML Configuration File
+Handson Demo.
+
+
+Advanced Concepts
+
+K8s Namespaces - Organize your components
+K8s Ingress
+Helm package manager
+Level of Volums abstractions
+K8s StatefulSet  - Deploying stateful Apps
+K8s Services
+
+
+What is Kubernetes ?
+
+	Official Defintion
+		Open source container orchestration tool 
+		developed by Google
+		helps you manage containerized applications in different enviornments
+		(physical or virtual  or cloud)
+
+
+
+
+	What Problems does Kubernetes Solve ?
+	What are the tasks of an orchestration tool ?
+
+
+
+	The need for a container orchestration tool
+		Trend from Monolith to Microservices
+		Increased  usuage of containers
+
+
+Demand for a proper way of managing those hundreds of containers 
+
+
+
+
+What features do orchestration tools offer ?
+	1.High availability or no downtime
+	2.Scalability or high performance
+	3.Disaster recovery - backup and restore
+
+
+Kubernetes Components
+	Volumes
+	Pod
+	Service
+	Ingress
+
+	Secrets
+	CoinfigMap
+
+	StatefulSet
+	Deployment
+
+
+
+Node and Pod
+
+	Pod: Smallest unit of K8s
+	     Abstraction over container
+	     usually 1 application per Pod
+	     Each Pod gets its own IP address
+	     New IP address on re-creation.
+	
+
+
+	Services and Ingress
+		permanent IP Address
+		lifecycle of Pod and Service not connected.
+		
+		
+
+
+App should be accessible through browser
+	External Service  http://124.89.101.2:8080	https://my-app.com  ------ingress
+	Internal Service
+
+
+ConfigMap and Secret
+
+	Database URL usually in the built application
+	
+		rebuild ---->push it to rep----> pull it in your pod
+
+	ConfigMap----
+		External configuration of your application.
+		Don't put credentials  into ConfigMap
+	
+	Secret:
+		used to store secret data
+		Stored in base64 encoded format
+
+
+
+
+______________________________________________________________________________________________________
+
+Volumes:
+	
+	Data Storage
+	
+
+	Volume: Storage on local machine
+		or remote outside of the k8s cluster
+		
+	k8s cluster 
+		storage:
+			1, 2
+
+		K8s does not manage data persistence.
+		
+
+
+Deployment and Stateful Set
+
+	Replicating everything on multiple servers
+	
+	Service is a kind of load balancer.
+	
+	Define blueprint for my-app pod (deployment)
+
+
+	in kubernetes you are creating blue prints for my-app pods
+		      you create Deployments
+
+	
+
+	Deployment is one more abstraction of Pods
+
+	
+
+	DB can not be replicated via deployment !
+
+	
+	Avoid data inconsistencies
+
+	
+	StatefulSet:
+		for stateful apps
+
+	Deployment for stateLESS apps
+
+	StatefulSet for stateFUL Apps or Databases
+
+	
+	
+	Deploying StatefulSet not easy. in K8s
+	
+	DB are often hosted outside of K8s cluster
+
+	
+_____________________________________________________________________________________
+
+
+Basic Architecture of Kubernetes:
+
+Master and Slave node
+
+
+Worker Machine in K8s Cluster:
+
+	Each Node has multiple Pods on it
+	3 processes must be installed on every Node
+	Worker Nodes do the actual work
+
+	Process:
+	1.Container runtime (docker)
+	2.Kubelet--- interacts with both the container and node
+		     Kubelet starts the pod with a container inside.
+	3.Kube Proxy
+		    -forwards the requests 
+
+	
+
+So, how do you interact with this cluster ?
+
+	How to :
+	1.schedule pod ?
+	2.monitor ?
+	3. re-schedule/ re-start pod ?
+	4.join a new Node ?
+
+
+
+
+All these managing processes are done by master node
+
+Master processes:
+		
+		1. API Server   :	 like a cluster gateway
+					 acts a gatekeeper for authentication.
+		2. Scheduler	:	scheduler just decided  on which node new pod should be sheduled
+
+		3. Controller manager:	detects cluster state changes
+
+		4. etcd		:	etcd is the cluster brain
+					cluster changes get stored in the key value store.
+				
+		
+
+
+Example  Cluster Set-Up
+		2 master node
+		3 worker nodes
+
+	Add new Master/Node server:
+	1.Get new bare server
+	2.Install all the master/worker node processes
+	3.Add it to the cluster
+
+
+		
+
+MiniKube and Kubectl
+	What is minikube
+	What is kubectl
+	Set-up Minikube cluster
+
+	
+
+What is minikube ?
+
+	Creates Virtual Box on your latop
+	Node runs in that virtual box
+	1 Node K8s cluster
+	for testing purpose
+
+
+What is kubectl ?
+	inteact with cluster
+	Command line tool for K8s  cluster
+		 
+
+
+Installation:
+	Virtualization  on your machine needed.
+	
+	Step1 : install hypervisor
+	
+
+
+Layers of Abstration
+Deployment manages a Replica set
+ReplicaSet manages Pods
+Pod is an abstraction of Container
+Container is execution.
+
+Everything below deployment is handled by Kubernetes.
+
+
+
+
+
+CRUD Commands:
+
+Create deployment		kubectl create deployment [name]
+Edit deployment			kubectl edit deployment [name]
+Delete deployment		kubectl delete deployment [name]
+
+
+Status of different k8s components
+	kubectl get nodes  | pod | services | replicaset | deployment
+
+
+Debugging pods
+
+log to console			kubectl logs [pod name]
+get Interactive Terminal	Kubectl exec -it [pod name] -- bin/bash
+get Info about Pod		kubectl descrivbe pod [pod name]
+
+Use configuration file for CRUD 
+
+apply a configuration file	kubectl apply -f [file name]
+Delete with configuration file 	kubectl delete -f [file name]
+
+_______________________________________________________________________________________________________
+
+YAML  Configuration File in Kubernetes
+
+overview : 
+	The 3 parts of configuration file
+	Connecting Deployments to service to Pods
+	Demo
+
+	
+1.metadata
+2.specification
+
+3.status  : self healing 
+
+
+
+Where does K8s get this status data?
+
+etcd holde the current status of any k8s component.
+
+format of configuration file YAML
+
+"Human friendly data serialization standard for all programming languages.
+
+Syntax: strict indentation !   use YAML validators
+
+store the config fiel with your code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	
+
+
+
+
+

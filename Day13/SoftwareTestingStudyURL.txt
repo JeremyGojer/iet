@@ -1,0 +1,18 @@
+
+Software Testing Urls
+
+https://www.guru99.com/software-testing-introduction-importance.html
+https://www.guru99.com/software-testing-seven-principles.html
+https://www.guru99.com/verification-v-s-validation-in-a-software-testing.html
+https://www.guru99.com/quality-assurance-vs-quality-control.html
+https://www.guru99.com/v-model-software-testing.html
+https://www.guru99.com/automation-testing.html
+https://www.guru99.com/difference-automated-vs-manual-testing.html
+https://www.guru99.com/automated-testing-tools.html
+https://www.tutorialspoint.com/what-is-the-difference-between-a-white-box-black-box-and-gray-box-testing
+https://www.guru99.com/what-everybody-ought-to-know-about-test-planing.html
+https://www.guru99.com/test-plan-for-project.html
+https://www.guru99.com/test-case.html
+
+
+

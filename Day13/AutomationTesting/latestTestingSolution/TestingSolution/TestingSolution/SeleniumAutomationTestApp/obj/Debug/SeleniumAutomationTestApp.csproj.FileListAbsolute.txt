@@ -1,0 +1,8 @@
+D:\TAP\DotnetSolutions\TestingSolution\SeleniumAutomationTestApp\obj\Debug\SeleniumAutomationTestApp.csproj.CoreCompileInputs.cache
+D:\TAP\DotnetSolutions\TestingSolution\SeleniumAutomationTestApp\bin\Debug\SeleniumAutomationTestApp.exe.config
+D:\TAP\DotnetSolutions\TestingSolution\SeleniumAutomationTestApp\bin\Debug\SeleniumAutomationTestApp.exe
+D:\TAP\DotnetSolutions\TestingSolution\SeleniumAutomationTestApp\bin\Debug\SeleniumAutomationTestApp.pdb
+D:\TAP\DotnetSolutions\TestingSolution\SeleniumAutomationTestApp\bin\Debug\WebDriver.dll
+D:\TAP\DotnetSolutions\TestingSolution\SeleniumAutomationTestApp\obj\Debug\SeleniumAutomationTestApp.csproj.CopyComplete
+D:\TAP\DotnetSolutions\TestingSolution\SeleniumAutomationTestApp\obj\Debug\SeleniumAutomationTestApp.exe
+D:\TAP\DotnetSolutions\TestingSolution\SeleniumAutomationTestApp\obj\Debug\SeleniumAutomationTestApp.pdb

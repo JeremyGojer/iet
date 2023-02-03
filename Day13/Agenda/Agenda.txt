@@ -1,0 +1,383 @@
+
+Agenda:
+
+	Software Testing:
+
+		Requirement--------------Customer, their business, their end users expectations
+		Architecting Solution------Architect, Domain Expert
+		Develpoment Team----------programmer, Developer,  UI Designer
+		Release Team--------------Build software---Binary deployable images
+	
+		Software Testing----------Tester, QA, Endusers, Customers
+		Operations Team------------maintainance, adminstration, Monitoring
+		DevOps Team----------------	
+		Zero Defect Product (Service)----------
+		
+		
+		:then why do get to listen tester do not have growth and much salary compared to developer?
+			
+			QA
+			Zero defect Product
+			System Requirement Analysis
+			Test Plan
+			Test cases
+			QA process
+			
+		tester requirement reduced by devops?---------
+		
+		so after cdac which role we should focus on
+
+
+Software Testing:
+
+		finding bugs
+		finding loop holes in a software
+		
+	Quality of software:
+		
+		Define test plan
+		Write  test cases
+		Execute tests
+		Collect test results
+
+		Report test results to develpoment team
+
+		Esclate vulenrabilities in softwarebuild
+		Always check for expected output from the system
+
+
+		Software testing  is a method 
+
+			wheter the actual software (Product, service, Applicatoin)
+			matches expected  requirements.
+			it ensuress  software is bug free. ( Zero Defect Software)
+			
+			The purpose of  ST 
+				identify errors, gaps
+					 missing requirements
+
+		 White Box Testing
+		 Black Box Testing
+		 Grey Box Testing
+
+		Advantage of Software testing ?
+
+			Cost Effective:
+			Product Quality:
+			Customer satisfaction:
+			Security:
+
+		Types of Software Testing:
+			
+			Functional Testing:
+
+					  Unit Testing:
+					  Integration Testing: Smoke Testing..
+					  
+
+			Non-Functional Testing(Performance Testing):
+					Performance
+					Endurance
+					Load Testing
+					Scalability
+					Usability
+
+			Maintenance:	Regression Testing
+
+	
+	Software Developement:
+				Principles of Software Development
+
+				Object Oriented Principles
+					pillars of Object Oriented:
+						Abstration, Encapsualtion, inheritance & Ploymorphism
+						typing, concurrency, modularity, persistence
+					
+
+
+What  the principles of Software Testing:
+
+7 priniciples of Software Testing::
+
+	1. Exhaustive testing is not possible
+	2. Defect Clustering
+	3. Pesticide paradox
+	4. Testing shows a presence of defects
+	5. absence of Error----- (Zero Defect Product)
+	6. Early Testing
+	7. Testing is context dependent
+
+DDD
+
+TDD: (Test Driven Delopment)
+
+	 How do you write a test ?
+		
+		1. define  a scenario
+		2. define expected output
+		3. define requirement input
+
+		Module: think of ECommerce Case Study
+			Membership
+			User Autentication
+		
+		Test Plan:
+
+		Test case:
+			User Autentication:
+
+			1.define output
+				expected output:valid User
+				expected output:invalid User
+			2. define input
+				 username
+				 password
+			User Registration
+			Change Password:
+
+		create muliplet test intances:
+		
+		Use Sampling Data :
+
+			test 1:  username:Ravi passoword:seed          true
+			test 2:  username:Sachin passoword:seed         false
+			test 3:  username:Minal passoword:ibm		true
+			test 4:  username:Ravi passoword:seed		false
+			test 5:  username:Sandesh passoword:yuu		true
+			test 6:  username:Raj passoword:ppd		true
+
+
+		Now developer will write :
+		
+			AccountManager:
+					bool	Validate ( username, password){
+						bool status=false;
+						//get database access
+						// define SQL query
+						//fire qurey to database
+						//get result
+						//staus=result
+						return status;
+					}
+
+		Verification:(QA)
+			1.Checking of documents, design,  code,
+			2.Does not involve  in code execution-------------at any time
+			3.Reviews, walkthroughs, inspections and chekcing resources, environment
+			4.Confirms specification
+			5.Find bugs before development
+			6.QA Team
+
+		Validation: (Testing)
+		 	  1.Testing and validation of actual product
+			  2.Involve in code execution------------------------at runtime
+			  3.Black box testing, white box testing, non-functional testing
+			  4.Check software meets expectations
+			  5.Finds bugs which are not found during verification
+			  6.Testing  Team along with QA Team
+
+
+
+
+
+	Today: 28/5/2021
+	
+	Software Testing:
+		Black Box Test
+		White Box Test
+		Gray Box Test
+		 
+	Integration Testing 
+		 
+
+	Test Plan
+	Regression Testing----------------got 
+	Create test case document for different sprints (designed in SE)
+	Testing Frameowrk:
+		library-------Executable
+		JUnit is a unit testing framework-------Java Application---------Spring Boot -------.jar files (.class files)
+		NUnit is a unit testing framework-------.NET Application---------asp.net core-------dll files
+		Jasmine is unit testing framework ------Javascript Framework-----Node js-----------.javascript
+		PyTest  is a unit testing framework-----Python  Appliation--------py---------------.py
+
+
+		Framwork:
+			  ( reusable components)
+			  ( in the form librarry)
+			  ( classes, interfaces, data Types, inbuilt utility funcationalities)
+			  ( classes, interface, data types, metadata ----annotations)
+			  
+
+		selinium Web Driver:
+				
+				Device Driver: it is kernel mode compiled program to control Device
+
+		MySQL jdbc Driver:
+				It is kind of Java compiled program (.class or .jar file) to control or manager database mysql
+		
+		Oracle jdbc Driver:
+				It is kind of Java compiled program (.class or .jar file) to control or manager database oracle
+		SQL jdbc Driver:
+				It is kind of Java compiled program (.class or .jar file) to control or manager database jdbc
+
+		
+		Selinium Web Driver:
+				Selenium WebDriver is a web framework that permits you to execute cross-browser tests.
+
+						
+			 Cross-Browser tests.
+					need to writes tests for those Browser UI TEst
+
+
+		JUnit :
+			it is kind of Java compiled packages used for Java program unit Testing
+		
+		Jasmine:
+			 unit test for Javascript , typscript program
+					-------these frameworks are not given in the form exes....
+
+						packages-----need tobe installed on  your PC
+
+		Ractive :
+		Proactive
+
+
+		QA:.Quality Assurance: Verfication
+
+			prevents defects
+			It does not involve executing the program
+			Proactive :.............
+			Define guidlines, rules, policies for  delivarables
+			QA involves in full software development life cycle
+			
+			
+		QC:Quality Control:Validation
+			is a part for software Testing
+			to ensure the quality of software products or services.
+			always involves executing a program
+			 Reactive measure
+			 in full software testing life cycle
+	
+
+
+
+		
+						
+		Mannual Testing:
+
+	
+		 Automation Testing :
+				more resource.
+				go those tests to be automated which can not be acheived by using Mannual testing
+
+				
+
+
+			sir is any validation required for test that we created..?
+
+		
+		Test tool selection
+			
+			Define the scope of automation
+			Planning, Design and Development
+			Test Exeuction
+			Framework
+			prdict Benifits of Testing;
+
+		White Box Testing:
+				input data---------product----------result
+
+		Black Box Testing:
+
+				input data-----block box-----result
+
+		Gray Box Testing:
+
+				White + black===Grey
+
+				input data  Product-----------------------------------------result
+					    product binary code + configuratin files
+			
+
+		
+			SE
+		  	GitHub
+					9881735801
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

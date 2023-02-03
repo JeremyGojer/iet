@@ -1,0 +1,25 @@
+
+
+https://docs.microsoft.com/en-us/learn/modules/dotnet-deploy-microservices-kubernetes/
+
+1. Why is a container orchestrator useful in a microservice architecture?
+
+A.Each microservice needs to be maintained, scaled, and deployed individually. An orchestrator helps manage those tasks.
+
+B.An orchestrator holds instructions on how to build and version Docker image.
+
+C.An orchestrator is the only means by which to run a containerized application in the cloud.
+
+D.None of the above
+
+Ans. A
+
+
+1. Why does Kubernetes automatically restart pods that have failed?
+
+A.Kubernetes will maintain the current system state as is when a failure occurs.
+B.Kubernetes will not automatically recover, rather it needs to be told to.
+C.Kubernetes will maintain the system state as defined in the configuration files no matter what.
+D.None of the above.
+
+Ans. C
