@@ -1,0 +1,18 @@
+Software Testing:
+	Quality Assurance
+	Software Testing
+			Mannual testing
+			Automation Testing
+			
+STLC:
+	Software Testing Life Cycle
+
+
+
+Jenkins url
+
+https://www.youtube.com/watch?v=4B9yCnfCfhQ
+https://www.infoworld.com/article/3239666/what-is-jenkins-the-ci-server-explained.html
+
+
+https://www.jenkins.io/doc/pipeline/tour/hello-world/

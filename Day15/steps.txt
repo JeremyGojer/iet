@@ -1,0 +1,399 @@
+
+Todays Agenda:
+
+Cloud computing:
+
+
+		
+Cloud Architecture
+
+Private Cloud:
+	      Banks,
+	      GOVT,
+	      Insurance, ogranizations
+
+Public Cloud:
+		Microsoft :  Azure
+		Google 	  :  GCP ( Google Cloud Platform)
+		Amazon	  :  AWS  (Amazon Web Services)
+
+hybrid Cloud:
+
+	     public Cloud  + private Cloud
+ 
+IAAS, SAAS, PAAS
+
+SaaS:Software As a Service
+	google doc, google spreadsheet, google Drive,  gmail, etc.
+	microsoft 365
+	Salesforce
+	zoom
+
+PAAS:Platform as a Service
+	Companies bring their applications and their data to platform provided by service provider
+	
+
+IAAS: Infrastructure as a Service
+
+	Companies will deploy thier physical servers in the form virtual servers  in service provides Cloud
+
+
+
+AwS subscription
+
+
+_________________________________________________________________________________________________________
+
+
+Introduction to Jenkins tool
+	Build Automation:
+	Continous Development/ continous integration:
+	(CD/CI)  DevOps pipelines
+
+
+
+
+
+
+
+__________________________________________________________________________________________________________________________________________________
+
+1.Platform As A Service
+		: Platform means ?
+		: Containers
+		: Difference between containers and virtual machines
+		: Docker Container Service.
+
+
+
+Machine: 		Physical hardware + power : IBM , Leneva laptop, etc.
+Operating System:	System software-----windows OS., Linux OS
+Virtual machine:	using virtualization Software  or Kernel level virtualizer
+			build, manage virutal machine on physical infrastructure
+			same RAM, Harddisk, processrors
+	
+Runtime:		JAVA, DOTNET, NODEJS, PYTHON (Execution Engine)
+
+Virtual Server:		192.154.23.45 IP address using putty, ssh client
+	       		No GUI..... remote terminal----managing servers
+			MYSQL, Xamp, Apache tomcat, JBOSS,
+
+
+Intranet:		private network for organization, instituion,
+Internet :
+Extranet:
+
+Private Cloud :		organization owns data cetners
+			orgranization manage data centers
+			ogranization deply their virual server on those datacenters
+			Orgranization deploy thier own enterprise applications on those datacenters
+			only Ogranization staff will be allowed to access, manage, mantain 
+					applications, services privately
+
+
+Data Center:		
+
+
+
+Platform:
+		Companies have their own business application-------------developers team
+		Companies have their own database--------------------------DBA team
+		Compnies will need Runtime ------------------sothat these application will be operational
+
+		Companies need Execution enviornment for running thier bussiness application and manage thier data using databases
+	
+		AWS: Amazon Container Service:
+		GOOGLE:Kubernetes
+		Azure:Azure Container Services:
+
+
+Amazon Container Service:
+		Commerce:	trading----------------------------------no of consumers start making request
+				online shopping
+				online shopping portal
+				Web Application + Web Servcies
+				Web servers, application servers, database server
+				Runtimes : java, node js , Python, dotnet
+				as a seperate exeuction unit------container
+
+				on virtual machines using 
+				CPU , RAM, Network, storage
+
+		Amazon EC2 Container Service is a highly scalable, 
+						  high performance 
+						  container management service 
+							 is reponsible for creating , managing, removing containers to
+							 handle external request load
+
+		that supports Docker containers and 
+		allows you to 
+				easily run distributed applications 
+				on a managed cluster of Amazon EC2 instances.
+
+
+		Cluster
+			a logical collection of 
+					group of ec2 instances (virtual servers)
+
+					of Amazon EC2 instances (more than one EC2 instance)
+
+
+		What is a container in cloud?
+		
+			A Container in cloud computing is an approach 
+				to operating system virtualization. 
+				By this, 
+                                the user can work with a program (application) and its dependencies  (databases)
+				using resource procedures that are isolated. 
+
+
+			... The container usage in online services 
+				benefits storage with cloud computing information security, 
+										  availability 
+										  and elasticity.
+
+
+
+		What is container orchestration?  : AWS container servcie, kubernetes , azure container service
+
+
+		Container orchestration 
+				automates the deployment, management, scaling, and networking of containers. 
+				can be used in any environment where you use containers. 
+				
+		It can help you to deploy the same application 
+				across different environments ( different containers)
+					without needing to redesign it.
+
+
+		docker : a container exeuction engine
+			  opensource:
+				can create  container 
+
+
+
+
+
+
+
+
+
+
+
+What is a Container?
+
+A standardized unit of software
+Package Software into Standardized Units for Development, Shipment and Deployment
+
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
+
+Comparing Containers and Virtual Machines
+
+Containers and virtual machines have similar resource isolation and allocation benefits, but function differently because containers virtualize the operating system instead of hardware. 
+Containers are more portable and efficient.
+
+
+The Old Way to deploy applications was to install the applications on a host using the operating-system package manager. This had the disadvantage of entangling the applications’ executables, configuration, libraries, and lifecycles with each other and with the host OS. One could build immutable virtual-machine images in order to achieve predictable rollouts and rollbacks, but VMs are heavyweight and non-portable.
+
+The New Way is to deploy containers based on operating-system-level virtualization rather than hardware virtualization. These containers are isolated from each other and from the host: they have their own filesystems, they can’t see each others’ processes, and their computational resource usage can be bounded. They are easier to build than VMs, and because they are decoupled from the underlying infrastructure and from the host filesystem, they are portable across clouds and OS distributions.
+
+Because containers are small and fast, one application can be packed in each container image. This one-to-one application-to-image relationship unlocks the full benefits of containers. With containers, immutable container images can be created at build/release time rather than deployment time, since each application doesn’t need to be composed with the rest of the application stack, nor married to the production infrastructure environment. Generating container images at build/release time enables a consistent environment to be carried from development into production. Similarly, containers are vastly more transparent than VMs, which facilitates monitoring and management. This is especially true when the containers’ process lifecycles are managed by the infrastructure rather than hidden by a process supervisor inside the container. Finally, with a single application per container, managing the containers becomes tantamount to managing deployment of the application.
+
+
+VIRTUAL MACHINES
+
+
+Virtual machines (VMs) are an abstraction of physical hardware turning one server into many servers. The hypervisor allows multiple VMs to run on a single machine. Each VM includes a full copy of an operating system, the application, necessary binaries and libraries - taking up tens of GBs. VMs can also be slow to boot.
+
+
+CONTAINERS
+
+Containers are an abstraction at the app layer that packages code and dependencies together. Multiple containers can run on the same machine and share the OS kernel with other containers, each running as isolated processes in user space. Containers take up less space than VMs (container images are typically tens of MBs in size), can handle more applications and require fewer VMs and Operating systems.
+
+
+
+Containerization
+
+Containerization is a lightweight alternative to full machine virtualization that involves encapsulating an application in a container with its own operating environment. This provides many of the benefits of loading an application onto a virtual machine, as the application can be run on any suitable physical machine without any worries about dependencies.
+
+Containerization has gained recent prominence with the open-source Docker. Docker containers are designed to run on everything from physical computers to virtual machines, bare-metal servers, OpenStack cloud clusters, public instances and more.
+
+
+Docker
+
+The widespread adoption of containers has changed the orthodoxy of IT—administrators do not need to run multiple virtual machines to create a barrier between applications or users, nor are programmers beholden to languages such as Java, which have their own strategy for process isolation and lifecycle management.
+
+Leading the way in this change is Docker, an open-source utility that automates the deployment and management of programs inside software containers. Docker is also the center of the container ecosystem, with other solutions such as Kubernetes available for deploying containers through Docker in a computing cluster.
+
+
+Docker is an open-source tool that automates the deployment of an application inside a software container. 
+
+Back in the day, transportation companies faced the following challenges:
+
+How to transport different (incompatible) types of goods side by side (like food and chemicals, or glass and bricks).
+How to handle packages of various sizes using the same vehicle.
+After the introduction of containers, bricks could be put over glass, and chemicals could be stored next to food. Cargo of various sizes can be put inside a standardized container and loaded/unloaded by the same vehicle.
+
+
+Let’s go back to containers in software development.
+
+When you develop an application, you need to provide your code along with all possible dependencies like libraries, the web server, databases, etc. You may end up in a situation when the application is working on your computer, but won’t even start on the staging server, or the dev or QA’s machine.
+
+This challenge can be addressed by isolating the app to make it independent of the system.
+
+How does this differ from virtualization?
+
+Traditionally, virtual machines were used to avoid this unexpected behavior. The main problem with VM is that an “extra OS” on top of the host operating system adds gigabytes of space to the project. Most of the time your server will host several VMs that will take up even more space. And by the way, at the moment, most cloud-based server providers will charge you for that extra space. Another significant drawback of VM is a slow boot.
+
+Docker eliminates all the above by simply sharing the OS kernel across all the containers running as separate processes of the host OS.
+
+
+Why do we need Docker?
+
+The short list of benefits includes:
+
+	Faster development process
+	Handy application encapsulation
+	The same behaviour on local machine / dev / staging / production servers
+	Easy and clear monitoring
+	Easy to scale
+
+
+Faster development process
+
+There is no need to install 3rd-party apps like PostgreSQL, Redis, Elasticsearch on the system – you can run it in containers. Docker also gives you the ability to run different versions of same application simultaneously. For example, say you need to do some manual data migration from an older version of Postgres to a newer version. You can have such a situation in microservice architecture when you want to create a new microservice with a new version of the 3rd-party software.
+
+It could be quite complex to keep two different versions of the same app on one host OS. In this case, Docker containers could be a perfect solution – you receive isolated environments for your applications and 3rd-parties.
+
+Handy application encapsulation
+
+You can deliver your application in one piece. Most programming languages, frameworks and all operating systems have their own packaging managers. And even if your application can be packed with its native package manager, it could be hard to create a port for another system.
+
+Docker gives you a unified image format to distribute you applications across different host systems and cloud services. You can deliver your application in one piece with all the required dependencies (included in an image) ready to run.
+
+Same behaviour on local machine / dev / staging / production servers
+Docker can’t guarantee 100% dev / staging / production parity, because there is always the human factor. But it reduces to almost zero the probability of error caused by different versions of operating systems, system-dependencies, etc.
+
+With right approach to building Docker images, your application will use the same base image with the same OS version and the required dependencies.
+
+Easy and clear monitoring
+
+Out of the box, you have a unified way to read log files from all running containers. You don’t need to remember all the specific paths where your app and its dependencies store log files and write custom hooks to handle this.
+You can integrate an external logging driver and monitor your app log files in one place.
+
+Easy to scale
+
+A correctly wrapped application will cover most of the Twelve Factors. By design, Docker forces you follow its core principles, such as configuration over environment variables, communication over TCP/UDP ports, etc. And if you’ve done your application right, it will be ready for scaling not only in Docker.
+
+
+Supported platforms
+
+Docker’s native platform is Linux, as it’s based on features provided by the Linux kernel. However, you can still run it on macOS and Windows. 
+The only difference is that on macOS and Windows, Docker is encapsulated into a tiny virtual machine. At the moment, Docker for macOS and Windows has reached a significant level of usability and feels more like a native app.
+
+
+
+Terminology
+Container 
+– a running instance that encapsulates required software. Containers are always created from images. A container can expose ports and volumes to interact with other containers or/and the outer world. Containers can be easily killed / removed and re-created again in a very short time. Containers don’t keep state.
+
+Image 
+– the basic element for every container. When you create an image, every step is cached and can be reused (Copy On Write model). Depending on the image, it can take some time to build. Containers, on the other hand, can be started from images right away.
+
+Port 
+– a TCP/UDP port in its original meaning. To keep things simple, let’s assume that ports can be exposed to the outer world (accessible from the host OS) or connected to other containers – i.e., accessible only from those containers and invisible to the outer world.
+
+Volume
+– can be described as a shared folder. Volumes are initialized when a container is created. Volumes are designed to persist data, independent of the container’s lifecycle.
+
+Registry 
+– the server that stores Docker images. It can be compared to Github – you can pull an image from the registry to deploy it locally, and push locally built images to the registry.
+
+Docker Hub 
+– a registry with web interface provided by Docker Inc. It stores a lot of Docker images with different software. Docker Hub is a source of the “official” Docker images made by the Docker team or in cooperation with the original software manufacturer (it doesn’t necessary mean that these “original” images are from official software manufacturers). Official images list their potential vulnerabilities. This information is available to any logged-in user. There are both free and paid accounts available. You can have one private image per account and an infinite amount of public images for free. Docker Store – a service very similar to Docker Hub. It’s a marketplace with ratings, reviews, etc. My personal opinion is that it’s marketing stuff. I’m totally happy with Docker Hub.
+
+
+
+
+Writing your first Dockerfile
+
+To build a Docker image, you need to create a Dockerfile. It is a plain text file with instructions and arguments. 
+
+Here is the description of the instructions we’re going to use in our next example:
+	FROM — set base image
+	RUN — execute command in container
+	ENV — set environment variable
+	WORKDIR — set working directory
+	VOLUME — create mount-point for a volume
+	CMD — set executable for container
+
+
+
+Connection between containers
+
+Docker compose — is an CLI utility used to connect containers with each other.
+
+You can install docker-compose via pip:
+
+sudo pip install docker-compose  
+
+
+
+
+Docker can be used on all types of projects, regardless of size and complexity.
+
+In the beginning, you can start with compose and Swarm. When the project grows, you can migrate to cloud services like Amazon Container Services or Kubernetes.
+
+Like standard containers used in cargo transportation, wrapping your code in Docker containers will help you build faster and more efficient CI/CD processes.' This is not just another technological trend promoted by a bunch of geeks – it’s a new paradigm that is already being used in the architecture of large companies like PayPal, Visa, Swisscom, General Electric, Splink, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Containers
+Docker as Container Engine
+Docker Hub
+Container Orchestration--Kubernetes
+Installing Docker
+Creating docker container
+Micro services
+Deploying Web Application to container
+Accessing Web Site from outside  publically
+
